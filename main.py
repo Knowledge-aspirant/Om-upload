@@ -22,7 +22,7 @@ import sys
 import re
 import os
 
-bot = Client("6920580702:AAEpdOmEHcEqP5yJKIMH3Zld5l60EfB21Po", api_id=22495153, api_hash="34096b38e2f6c4d47ffc593cda42e4cd")
+bot = Client("6920580702:AAEpdOmEHcEqP5yJKIMH3Zld5l60EfB21Po", api_id= 22495153, api_hash= "34096b38e2f6c4d47ffc593cda42e4cd")
 
 
 @bot.on_message(filters.command(["start"]) & filters.user(ADMINS))

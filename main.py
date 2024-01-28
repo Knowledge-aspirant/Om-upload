@@ -50,8 +50,8 @@ async def account_login(bot: Client, m: Message):
 
     path = f"./downloads/{m.chat.id}"
 
-    try :
-       with open(x, "r") as f:
+    try:
+       with open(x,"r") as f:
         content = f.read()
         content = content.split("\n")
         links = []

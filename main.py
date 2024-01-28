@@ -51,14 +51,14 @@ async def account_login(bot: Client, m: Message):
     path = f"./downloads/{m.chat.id}"
 
     try:
-    with open(x, "r") as f:
+       with open(x, "r") as f:
         content = f.read()
-    content = content.split("\n")
-    links = []
-    for i in content:
-        links.append(i.split("://", 1))
-    os.remove(x)
-    # print(len(links))
+        content = content.split("\n")
+        links = []
+        for i in content:
+            links.append(i.split("://", 1))
+        os.remove(x)
+        # print(len(links))
 except Exception as e:
     await m.reply_text("Invalid file input.")
     os.remove(x)

@@ -5,7 +5,7 @@
 
     "description": "Download videos from various websites using this telegram bot",
 
-    "repository": "https://github.com/Martyy2003/Unkniwntxt",
+    "repository": "https://github.com/Knowledge-aspirant/Om-upload",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
